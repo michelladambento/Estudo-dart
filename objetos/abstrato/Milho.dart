@@ -1,6 +1,6 @@
 import 'Alimento.dart';
 
-class Milho extends Alimento{
+class Milho implements Alimento{
 
   int qtdEspiga;
 
