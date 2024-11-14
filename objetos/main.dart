@@ -2,6 +2,7 @@ import 'Fruta.dart';
 
 void main(){
 
+// new é opcional
   Fruta uva = Fruta("Uva grape", "roxo");
   print(uva.toString());
 
