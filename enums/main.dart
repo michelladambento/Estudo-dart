@@ -1,28 +1,15 @@
+import 'contaEnum.dart';
+
 void main(){
 
  escolherMeioLocomocao(Transporte.SKATE);
 
- print(Conta.POUPANCA.nome);
-
-}
-
-enum Conta{
-
-  CORRENTE(nome: "conta corrente"),
-  POUPANCA(nome: "conta poupança");
-
-  const Conta({
-    required this.nome
-  });
-
-  final String nome;
+ print(Conta.CORRENTE.nome);
 
 }
 
 enum Transporte{
-
   CARRO, BIKE, SKATE
-
 }
 
 void escolherMeioLocomocao(Transporte transporte){
