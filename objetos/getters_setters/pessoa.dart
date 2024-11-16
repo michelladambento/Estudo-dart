@@ -1,19 +1,25 @@
 class Pessoa{
 
-  String _nome; // variavel privada
+  String? _nome; // variavel privada
 
-  int _idade;  // variavel privada
+  int? _idade;  // variavel privada
+
+  Pessoa.vazio();
+
+  // ATENÇÃO: Para construtores vazio, ou colocar atributos opcional, ou inicializar com um valor
 
   Pessoa(this._idade, this._nome);
 
-  // aqui foi colocado nome de getNome mas pode colocar o nome que quiser para get
-  String get getNome{
-    return _nome;
+  String? get nome => _nome;  
+
+  int? get idade => _idade;
+
+  set nome(String? nome){
+    _nome = nome;
   }
 
-  // aqui foi colocado nome de getIdade mas pode colocar o nome que quiser para get
-  int get getIdade{
-    return _idade;
+  set idade(int? idade){
+    _idade = idade;
   }
 
 }
