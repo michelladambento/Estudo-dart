@@ -8,7 +8,7 @@ void main(){
   destinos.add("São Paulo");
   print(destinos);
 
-  // Set não deixa incluir dados repetidos
+  // Set não deixa incluir dados repetidos assume apenas valores únicos
   Set<String> destinosVisitados = <String>{};
   destinosVisitados.add("Rio de Janeiro");
   destinosVisitados.add("Rio de Janeiro");
