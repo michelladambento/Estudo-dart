@@ -2,6 +2,21 @@ void main(){
 
  escolherMeioLocomocao(Transporte.SKATE);
 
+ print(Conta.POUPANCA.nome);
+
+}
+
+enum Conta{
+
+  CORRENTE(nome: "conta corrente"),
+  POUPANCA(nome: "conta poupança");
+
+  const Conta({
+    required this.nome
+  });
+
+  final String nome;
+
 }
 
 enum Transporte{
