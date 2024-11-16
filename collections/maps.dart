@@ -7,6 +7,8 @@ void main(){
   // ou assim 
   destinos.addAll({"MT":"Mato Grosso"});
 
+
+  destinos.update("MT", (value)=> "o valor da sigle foi atualizada para essa msg");
   print(destinos);  // saída: {SP: São Paulo, RJ: Rio de janeiro, MG: Minas Gerais, MT: Mato Grosso}
 
   // destinos.forEach((d){
