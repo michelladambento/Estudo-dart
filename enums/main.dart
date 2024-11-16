@@ -21,6 +21,7 @@ void escolherMeioLocomocao(Transporte transporte){
       break;
     default:
       print("vou para aventura!");
+      break;
   }
 
 }
