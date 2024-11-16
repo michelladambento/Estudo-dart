@@ -6,7 +6,9 @@ class Pessoa{
 
   Pessoa.vazio();
 
-  // ATENÇÃO: Para construtores vazio, ou colocar atributos opcional, ou inicializar com um valor
+  // ATENÇÃO: Para construtores vazio, ou colocar atributos opcional, ou inicializar com um valor padrão
+  // EXEMPLO ABAIXO:
+  // Pessoa.vazio() : _nome = '', _idade = 0;
 
   Pessoa(this._idade, this._nome);
 
