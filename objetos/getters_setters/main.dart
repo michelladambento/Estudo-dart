@@ -17,7 +17,7 @@ void main(){
 
   print("-------------------------");
 
-  Pessoa p2 = Pessoa.vazio();
+  Pessoa p2 = Pessoa();
   p2.nome = "Ana Auxiliadora";
   p2.idade = 59;
 
